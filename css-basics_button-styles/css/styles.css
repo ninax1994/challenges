@@ -1,0 +1,55 @@
+/* Please scroll down to the start of your exercise! */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+}
+
+section {
+  background-color: lemonchiffon;
+  display: grid;
+  place-items: center;
+}
+
+.skyblue {
+  background-color: skyblue;
+}
+
+button {
+  background-color: white;
+  padding: 8px 25px;
+}
+
+.button1 {
+  background-color: lightpink;
+  color: rgb(187, 39, 39);
+  border-radius: 30px;
+  padding: 20px;
+  border: darkred;
+  border-style: double;
+}
+
+.button2 {
+  background-color: lightgreen;
+  color: darkslategray;
+}
+
+.button3 {
+  font-style: italic;
+  font-size: large;
+  font-stretch: narrower;
+  font-family: sans-serif;
+}
+
+.button4 {
+  font-size: 24px;
+  color: #333;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  background-color: lightskyblue;
+  border-radius: 10px;
+}
